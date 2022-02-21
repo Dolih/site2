@@ -1,0 +1,115 @@
+/* General setup */
+@font-face {
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    font-family: 'Roboto';
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Lexend Peta';
+    src: local('Lexend Peta Regular'), local('LexendPeta-Regular'),
+    url('font/LexendPeta-Regular.eot?#iefix') format('embedded-opentype'),
+    url('font/LexendPeta-Regular.woff2') format('woff2'),
+    url('font/LexendPeta-Regular.woff') format('woff'),
+    url('font/LexendPeta-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Roboto;
+    font-size: 4em;
+    text-align: center;
+}
+
+h2{
+    font-family: Roboto;
+    font-size: 3em;
+    letter-spacing: 5px;
+}
+
+p{
+    line-height: 20px;
+    word-spacing: 1px;
+    text-indent: 30px;
+}
+
+a{
+    color: #a66;
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+.list{
+    line-height: 20px;
+    word-spacing: 1px;
+}
+ol{
+    list-style-type: upper-roman;
+}
+
+.menu{
+
+    font-family: Roboto;
+    font-size: 1.8em;
+    text-decoration: none;
+    line-height: 80px;
+}
+
+.menu-ul{
+    list-style-type: none;
+    border: 2px solid #a66;
+}
+
+.menu-a{
+    text-decoration: none;
+    border-bottom: 2px solid #a66;
+
+
+}
+
+body {
+    font-family: "Lexend Peta";
+    font-size: 10px;
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+    float: left;
+    width: 50%;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+}
+
+header, section, aside, nav, footer {
+    padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+}
+
+/* ВАШ КОД ДОЛЖЕН БЫТЬ ЗДЕСЬ */
